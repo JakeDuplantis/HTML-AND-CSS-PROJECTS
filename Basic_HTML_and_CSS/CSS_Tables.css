@@ -1,0 +1,21 @@
+table {
+	border: 1px solid siver;
+}
+
+td:hover {
+	background-color: yellow;
+	color: black;
+}
+
+tr, th {
+	background-color: black;
+	color: cornsilk;
+	font-size: 20px;
+}
+
+tr, td {
+	background-color: #6495ED;
+	color: white;
+}
+
+h1 {  text-shadow: 2px 2px #ff0000;}
