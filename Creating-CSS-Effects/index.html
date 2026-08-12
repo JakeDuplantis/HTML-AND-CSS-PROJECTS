@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Creating Effects with CSS</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!--NAVBAR-->
+        <nav class="nav-bar">
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li class="drop">
+                    <a href="#">Images</a>
+                    <div class="rollover-menu">
+                        <a href="#image1">Matsumoto</a>
+                        <a href="#image2">Himeji</a>
+                        <a href="#image3">Matsue</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <h1>Japanese Castles</h1>
+        <!--Images-->
+        <section>
+            <!--IMAGE ONE-->
+            <div class="image-container"id="image1">
+                <img src="images/Matsumoto.jpg" alt="castle image">
+                <div class="overlay"></div>
+            </div>
+            <!--IMAGE TWO-->
+            <div class="image-container"id="image2">
+                <img src="images/Himeji.jpg" alt="castle image" class="zoom">
+            </div>
+            <!--IMAGE THREE-->
+            <div class="image-container"id="image3">
+                <div class="circle">
+                    <img src="images/Matsue.jpg" alt="castle image">
+                </div>
+            </div>
+            
+        </section>
+        <!--FOOTER-->
+        <footer>
+            <div class="footer-text">
+                <p>The Tech Academy &copy;</p>
+            </div>
+        </footer>
+    </body>
+</html>
