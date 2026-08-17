@@ -1,0 +1,84 @@
+/*Import link for the Roboto font from font.google.com*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+
+
+h1{
+    font-family: 'Roboto', sans-serif; /*Font from fonts.google.com*/
+    text-align: center;
+}
+
+h2{
+    background-color: rgb(24, 39, 99);
+    color: yellow;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin: -8px -8px 9px -8px
+}
+
+
+h3{
+    color: rgb(26, 54, 165);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+body{
+    background-color: rgb(173, 190, 186);
+}
+
+/*NAVBAR*/
+.nav-bar{
+    position: sticky; /*navbar will travels with the user scrolling*/
+    top: 0;
+    z-index: 9;
+}
+
+
+ul{
+    display: flex; /*creates a flex container which will expand or shrink elements 
+    to fill the space available to them and place the elements side by side horizontally*/
+    list-style-type: none; /*removes the default styleing for unordered lists elements*/
+    align-items: center;
+    margin: -8px -8px 0px -8px; /*The margin order is top, right, bottom, and left. 
+    The negative margins will stretch the background beyond the edge of the browser screen*/
+    background-color: rgb(52, 61, 59);
+    border-bottom: 5px solid rgb(248, 224, 10);
+    border-top: 5px solid rgb(248, 224, 10);
+}
+
+a{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: 800px;
+    color: rgb(212, 107, 9);
+    text-align: center;
+    width: 100px;
+    padding: 20px;
+    text-decoration: none; /*removes underlines in navbar elements*/
+}
+
+/*Image*/
+img{
+    height: 800px;
+    width: 1000px;
+}
+
+
+/*Form*/
+form{
+    display: table; /*This will display the form in a table format as rows and columns*/
+    padding: 15px;
+}
+
+form input{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: rgb(182, 96, 16);
+    border: 2px solid rgb(52, 61, 60);
+    border-radius: 8px;
+    padding: 3px;
+    width: 180px;
+    margin: 3px 15px 10px 0px;
+}
+
