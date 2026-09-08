@@ -45,7 +45,7 @@ function buyTickets() {
 $(document).on("scroll", function () {
     //When the webpage is scrolled down from the top by 50px this
     //if statement will trigger
-    if ($(document).scroll() > 50) {
+    if ($(document).scrollTop() > 50) {
         //Once the 50px requirement has been met add the 
         //nav-shrink class selector to the same HTML element
         //that had the nav class
