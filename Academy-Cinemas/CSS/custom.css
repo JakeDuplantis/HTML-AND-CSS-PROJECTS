@@ -298,3 +298,29 @@ other images on the page and overrides the img type selector styling*/
     width: auto;
     height: 130px;
 }
+
+/*POPOVERS*/
+
+.star-rating{
+    width: 80%;
+}
+
+/*Toast*/
+.custom-toast{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+
+/*styling for accordion*/
+.accordion {
+    --bs-accordion-btn-bg: var(--secondary-color);
+    --bs-accordion-active-bg: var(--secondary-color);
+    --bs-accordion-bg: var(--main-color);
+    --bs-accordion-active-bg: var(--secondary-color);
+    --bs-accordion-active-color: var(--accent-text-color);
+    --bs-accordion-color: var(--accent-text-color);
+}
+
